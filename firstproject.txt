@@ -1,0 +1,21 @@
+    1  R
+    2  cat /home/user/.sudo_as_admin_successful 
+    3  sudo shutdown -h now
+    4  status
+    5  sudo apt install upstart
+    6  status
+    7  clear
+    8  git status
+    9  git add ReproducibleResearchRStudio.Rproj 
+   10  git add .gitignore 
+   11  git status
+   12  git commit -m"first project"
+   13  git config --global user.email "mkamonde.km@gmail.com"
+   14  git config --global user.name "kamondemwangi"
+   15  git commit -m"first project"
+   16  git push -u origin master
+   17  git remote set-url origin https://github.com/kamondemwangi/ReproducibleResearchRStudio.git
+   18  git push -u origin master
+   19  git status
+   20  history
+   21  history > firstproject.txt
